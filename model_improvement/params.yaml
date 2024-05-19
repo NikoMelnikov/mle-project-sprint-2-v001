@@ -1,0 +1,17 @@
+categories: 'auto'
+handle_unknown: 'ignore'
+max_categories: 10
+sparse_output: False
+drop: 'first'
+degree: 2
+n_bins: 5
+encode: 'ordinal'
+strategy: 'uniform'
+subsample: null 
+feateng_steps: 2
+featsel_runs: 3
+max_gb: null
+n_jobs: -1
+transformations: ['1/', 'log', 'abs', 'sqrt'] 
+units: null
+verbose: 0
